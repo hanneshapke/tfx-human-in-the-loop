@@ -39,7 +39,9 @@ _APPROVE_TEXT = ['lgtm', 'approve', 'approved', 'yes']
 _DECLINE_TEXT = ['decline', 'reject', 'no', 'declined', 'rejected']
 # Template for notifying model review
 _NOTIFY_MODEL_REVIEW_TEMPLATE = """
-Please review the model in the following URI: {}"""
+A model with the following URI requires your review {}. 
+Please visit kf.concurlabs.com to validate the model and approve/reject here.
+"""
 # Template for notifying valid model review reply
 _NOTIFY_CORRECT_REPLY_TEMPLATE = """
 Unrecognized text: "{{}}", please use one of the following to approve:
